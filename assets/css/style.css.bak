@@ -47,8 +47,8 @@ h6 {
 	color: #20126f;
 }
 p {
-	color:#fff;
-	margin-bottom:15px;
+	color:#7a7a7a;
+	margin-bottom:30px;
 }
 a {
 	color: #20126f;
