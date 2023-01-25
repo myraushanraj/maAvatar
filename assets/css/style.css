@@ -1150,8 +1150,11 @@ header a:hover,.navbar-nav li a.active {
 	background-image: linear-gradient(to bottom, rgba(13,70,159,1) 10%,rgba(32,18,111,1) 100%);
 }
 .section_gradiant_dark {
-	background: -webkit-radial-gradient(#550968 ,#2a0622);;
-	background-image: radial-gradient(#550968 ,#2a0622);;
+	/* background: -webkit-radial-gradient(#550968 ,#2a0622);; */
+	background-image: url("../images/maavtaar_banner.jpg");
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-position: center;
 }
 .section_light_bg {
 	background-color: #f6f8ff;
@@ -2672,3 +2675,14 @@ header a:hover,.navbar-nav li a.active {
 /*===================================*
 14. LOGIN PAGE
 *====================================*/
+.tk_countdown{
+	background-color: #9c27b040 !important;
+}
+
+.fixed-top {
+	background: #39073b;
+}
+.banner_text{
+	background: #59106594;
+    padding: 13px;
+}
