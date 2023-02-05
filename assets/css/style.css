@@ -1021,7 +1021,6 @@ header a:hover,.navbar-nav li a.active {
 03. BANNER SECTION
 *===================================*/
 .banner_section {
-	background-color:#0d469f;
 	padding:200px 0;
 	position:relative;
 	z-index:0;
@@ -1078,8 +1077,9 @@ header a:hover,.navbar-nav li a.active {
 }
 .banner_section .tk_countdown {
 	background-color:RGBA(15,62,151,0.6);
-	max-width:480px;;
-	margin:0 auto;
+	width: 480px;
+    margin: 0 auto;
+    float: right;
 }
 .banner_section .tk_counter_inner {
 	border:0;
@@ -1520,6 +1520,8 @@ header a:hover,.navbar-nav li a.active {
 }
 .roadmap_box h6 {
 	color: #ffffff;
+	font-size: 17px;
+	margin-bottom: 20px;
 }
 .roadmap_box p {
 	color: #ffffff;
@@ -2685,4 +2687,15 @@ header a:hover,.navbar-nav li a.active {
 .banner_text{
 	background: #59106594;
     padding: 13px;
+}
+.fight img{
+	width: 240px;
+}
+.hidden{
+	display: none;
+}
+.roadmap_inner li{
+	text-align: left;
+	color: #fff;
+	font-size: 15px;
 }
