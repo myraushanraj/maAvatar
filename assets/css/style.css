@@ -1032,6 +1032,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .banner_text h1 span {
 	color: #26b6d4;
+	font-size: 44px;
 }
 .banner_text h3 {
 	color: #ffffff;
@@ -2698,4 +2699,29 @@ header a:hover,.navbar-nav li a.active {
 	text-align: left;
 	color: #fff;
 	font-size: 15px;
+}
+
+
+
+.btn-default {
+    border-color: #ccc;
+    background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%) !important;
+    border: 0;
+    color: #fff !important;
+    outline: none !important;
+    text-transform: uppercase !important;
+    z-index: 2 !important;
+	border-radius: 40px !important;
+	line-height: 42px!important;
+    padding: 5px 30px !important;
+}
+#home{
+	height: 85vh;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: -25% !important;
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -136px !important;
 }
