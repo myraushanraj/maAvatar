@@ -110,6 +110,7 @@ section.small_pt {
 }
 section.small_pb {
 	padding-bottom: 50px;
+	/* background: linear-gradient(81.97deg, #1D0042 8.22%, #1C0176 92.21%); */
 }
 .list_none li {
 	list-style:none;
@@ -138,10 +139,17 @@ button:focus {
 }
 .title_light h2, 
 .title_dark h2{
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 30px;
-	text-transform: capitalize;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 56px;
+	line-height: 66px;
+	text-align: center;
+	letter-spacing: 0.055em;
+	
+	color: #FFFFFF;
+	
+	text-shadow: 1px 4.8px 34.23px rgba(255, 255, 255, 0.33);
 }
 .title_light span, 
 .title_dark span {
@@ -164,7 +172,7 @@ button:focus {
 	background-color :#0d2476;
 }
 .bg_black_dark {
-	background-image: radial-gradient(#550968 ,#2a0622);
+	background: linear-gradient(81.97deg, #1C0176 8.22%, #1D0042 92.21%);
 }
 .large_divider {
 	height:100px;
@@ -1011,7 +1019,7 @@ header a:hover,.navbar-nav li a.active {
 .v_dark header.active,
 .v_dark_light .nav-fixed,
 .v_dark_light header.active {
-	background-color: #1a1c34;
+	background-color: transparent;
 }
 /*===================================*
 02. END HEADER DESIGN
@@ -1031,8 +1039,8 @@ header a:hover,.navbar-nav li a.active {
 	margin-bottom:20px;
 }
 .banner_text h1 span {
-	color: #26b6d4;
-	font-size: 44px;
+	color: #fff;
+	font-size: 52px;
 }
 .banner_text h3 {
 	color: #ffffff;
@@ -1041,6 +1049,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .banner_text p {
 	color:#fff;
+	font-size:15px;
 }
 .banner_image_right {
 	min-width: 690px;
@@ -1152,10 +1161,11 @@ header a:hover,.navbar-nav li a.active {
 }
 .section_gradiant_dark {
 	/* background: -webkit-radial-gradient(#550968 ,#2a0622);; */
-	background-image: url("../images/maavtaar_banner.jpg");
+	/* background-image: url("../images/maavtaar_banner.jpg");*/
 	background-repeat: no-repeat;
 	background-origin: content-box;
-	background-position: center;
+	background-position: 100% 100%;
+    height: 97vh;
 }
 .section_light_bg {
 	background-color: #f6f8ff;
@@ -1176,7 +1186,7 @@ header a:hover,.navbar-nav li a.active {
 	background-color: #0d469f;
 }
 .v_dark {
-	background-image: radial-gradient(#550968 ,#2a0622);
+	/* background-image: radial-gradient(#550968 ,#2a0622); */
 }
 
 /*===================================*
@@ -1306,8 +1316,8 @@ header a:hover,.navbar-nav li a.active {
 	background-image: url("../images/counter_bg.png");
 }
 .tk_counter_inner {
-	border: 1px solid #ffffff;
 	padding: 25px;
+	padding-top: 0px;
 }
 .counter_box {
 	color:#fff;
@@ -1320,7 +1330,7 @@ header a:hover,.navbar-nav li a.active {
 	font-size: 36px;
 	font-weight: 500;
 	margin: 0 5px;
-	padding: 20px 5px;
+	padding: 0px 5px;
 }
 .counter_box .tk_text {
 	display: block;
@@ -1399,6 +1409,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_light .countdown_shape {
 	background-image: url("../images/light_counter_bg.png");
+
 }
 .v_blue .pr_box, 
 .v_blue .tk_countdown,
@@ -1426,7 +1437,10 @@ header a:hover,.navbar-nav li a.active {
 .v_dark .countdown_shape,
 .v_dark_light .countdown_shape {
 	background-image: url("../images/light_counter_bg2.png");
+	width: 400px;
+margin: auto;
 }
+
 
 /*===================================*
 06. END TOKEN SECTION
@@ -1448,13 +1462,14 @@ header a:hover,.navbar-nav li a.active {
 	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 .roadmap::before {
-    background-color: #26b6d4;
 	content: "";
-	height: 3px;
+    height: 0px;
     left: 0;
     position: absolute;
     top: 15px;
     width: 100%;
+    border-top: 2px solid #fff;
+    border-style: dashed;
 }
 .roadmap_icon {
 	background-color: rgba(0, 0, 0, 0);
@@ -1477,7 +1492,7 @@ header a:hover,.navbar-nav li a.active {
 	color: #ffffff;
 	content: "c";
 	display: block;
-	font-size: 28px;
+	font-size: 21px;
 	font-weight: 700;
 	height: inherit;
 	transform: skewY(-30deg) rotate(60deg) translate(0%);
@@ -1486,19 +1501,21 @@ header a:hover,.navbar-nav li a.active {
 .rd_complete .roadmap_icon::before {
 	content: "";
 	font-family: ionicons;
-	font-size: 16px;
+	font-size: 21px;
 	font-weight: normal;
 }
 .roadmap_inner::before {
-	background-color: #26b6d4;
+	background-color: transparent !important;
 	content: "";
 	height: 94px;
 	left: 0;
 	margin: 0 auto;
 	position: absolute;
 	right: 0;
-	top: -100px;
-	width: 3px;
+	top: -113px;
+	width: 0px;
+	border: 2px solid #fff;
+    border-style: dashed;
 }
 .roadmap_inner::after {
 	background: #26b6d4 none repeat scroll 0 0;
@@ -1510,7 +1527,7 @@ header a:hover,.navbar-nav li a.active {
 	margin: 0 auto;
 	position: absolute;
 	right: 0;
-	top: -6px;
+	top: -18px;
 	width: 15px;
 	z-index: -1;
 }
@@ -1520,7 +1537,7 @@ header a:hover,.navbar-nav li a.active {
 	padding:20px;
 }
 .roadmap_box h6 {
-	color: #ffffff;
+	color: #1ae7f3;
 	font-size: 17px;
 	margin-bottom: 20px;
 }
@@ -1607,7 +1624,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .team_info h4 a {
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight:bold;
 }
 .team_info p {
@@ -1620,7 +1637,9 @@ header a:hover,.navbar-nav li a.active {
 	position: relative;
 }
 .team_img img {
-	width: 100%;
+	width: 400px;
+    border-radius: 50%;
+
 }
 .social_team {
 	left: 0;
@@ -1728,7 +1747,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_dark .team_info,
 .v_dark_light .team_info {
-	background-color: #1a1c34;
+	background-color: transparent;
 }
 .v_dark .mfp-bg,
 .v_dark_light .mfp-bg  {
@@ -2141,7 +2160,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_dark .bottom_footer,
 .v_dark_light .bottom_footer {
-	background-color: #0c0e28;
+	background-color: #1C016A;
 }
 
 /*===================================*
@@ -2679,15 +2698,16 @@ header a:hover,.navbar-nav li a.active {
 14. LOGIN PAGE
 *====================================*/
 .tk_countdown{
-	background-color: #9c27b040 !important;
+	background-color: #9c27b000 !important;
 }
 
 .fixed-top {
-	background: #39073b;
+	/* background: linear-gradient(81.97deg, #1D0042 8.22%, #1C0176 92.21%); */
 }
 .banner_text{
-	background: #59106594;
     padding: 13px;
+	width: 650px;
+    margin: 100px auto 0px;
 }
 .fight img{
 	width: 240px;
@@ -2711,17 +2731,98 @@ header a:hover,.navbar-nav li a.active {
     outline: none !important;
     text-transform: uppercase !important;
     z-index: 2 !important;
-	border-radius: 40px !important;
 	line-height: 42px!important;
     padding: 5px 30px !important;
 }
-#home{
-	height: 85vh;
-}
+
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
     left: -25% !important;
     margin-left: -10px;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: -136px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 10px;
+    margin: 0 15px;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.team_box{
+	background: #000;
+	padding: 30px;
+}
+.featureWrap div div{
+	position: relative;
+    padding: 20px 30px;
+    margin: 27px auto;
+    font-size: 30px;
+    width: 82%;
+}
+.featureWrap div div:after{
+	content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9px;
+    padding: 3px;
+    background: linear-gradient(45deg, #B60AEE, #5E1AF5);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+.featureWrap div div img{
+	width:185px;
+	height: 26px;
+}
+.topSection{
+	background: linear-gradient(75deg, #040199,#10063e, #7B0CB7);
+}
+.navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background: red;
+    padding: 0px 60px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(20.8333px);
+}
+.advisorWrapper{
+	background: linear-gradient(81.97deg, #1D0042 8.22%, #1C0176 92.21%);
+}
+.featureWrapper{
+    background: linear-gradient(81.97deg, #531990eb,#0f0434, #0f0434), url(../images/vector/specification.png);
+    background-repeat: no-repeat;
+
+}
+.sectionPadding{
+	padding: 90px 0px;
+}
+.appWrapper{
+	background: linear-gradient(81.97deg, #1D0042 8.22%, #1C0176 92.21%);
+}
+.sliderRoad{
+	background: linear-gradient(39.97deg, #1D0042,#1D0042,#1D0042, #1C0176 92.21%);
+
+}
+.hidden{
+	display: none !important;
+}
+.faqWrapper{
+	background-image: linear-gradient(to right, #070179, #0f0435, #3d076c);
+
+}
+.teamBottom .team_img img{
+	width: 190px;
+    height: 190px;
+}
+.ion-ios-arrow-up{
+	right: 8px;
+    position: relative;
 }
