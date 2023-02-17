@@ -2873,7 +2873,12 @@ border-radius: 15px;
 	display: none !important;
 }
 
-
+.collapse.in {
+    display: none !important;
+}
+.show.in{
+	display: block !important;
+}
 
 
 
