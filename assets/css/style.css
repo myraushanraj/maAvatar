@@ -29,7 +29,7 @@ Version      : 1.4
 body {
 	background: #ffffff none repeat scroll 0 0;
     color: #7a7a7a;
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', sans-serif !important;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -762,23 +762,7 @@ to {
 	color: #fff;
 	outline:none;
 }
-.btn-default::before {
-	background: -webkit-linear-gradient(left, rgba(37,184,213,1) 0%,rgba(117,88,165,1) 99%);
-	background: linear-gradient(to right, rgba(37,184,213,1) 0%,rgba(117,88,165,1) 99%);
-	border-radius: 40px;
-	content: "";
-	height: 100%;
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	transition: all 0.5s ease 0s;
-	width: 100%;
-	z-index: -1;
-}
-.btn-default:hover:before {
-	opacity: 1;
-}
+
 .btn-border {
 	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
 	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
@@ -788,22 +772,7 @@ to {
 	text-transform:uppercase;
 	z-index:2;
 }
-.btn-border::after {
-	background-color: #103f98;
-	border-radius: 40px;
-	bottom: 0;
-	content: "";
-	left: 0;
-	margin: 2px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	transition: all 0.5s ease 0s;
-	z-index: -1;
-}
-.btn-border:hover:after {
-	opacity :0;
-}
+
 .btn i {
 	font-size: 30px;
 	line-height: 24px;
@@ -1044,8 +1013,16 @@ header a:hover,.navbar-nav li a.active {
 	margin-bottom:20px;
 }
 .banner_text h1 span {
-	color: #fff;
-	font-size: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 57px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    /* border: 1px solid #FFFFFF; */
+    text-shadow: 1px 4.8px 34.23px rgb(255 255 255 / 33%);
 }
 .banner_text h3 {
 	color: #ffffff;
@@ -1328,14 +1305,17 @@ header a:hover,.navbar-nav li a.active {
 	color:#fff;
 	display:inline-block;
 	width:25%;
+	
 }
 .counter_box .tk_counter {
-	border: 1px solid #ffffff;
 	display: block;
 	font-size: 36px;
 	font-weight: 500;
 	margin: 0 5px;
 	padding: 0px 5px;
+	border-radius: 10px;
+	background: linear-gradient(180deg, #1C016A 0%, #461781 100%);
+	border-radius: 8px;
 }
 .counter_box .tk_text {
 	display: block;
@@ -1343,6 +1323,7 @@ header a:hover,.navbar-nav li a.active {
 	font-weight: 500;
 	margin-top: 10px;
 	text-transform: uppercase;
+
 }
 .tk_countdown .btn {
 	margin: 15px 0;
@@ -2711,7 +2692,7 @@ margin: auto;
 }
 .banner_text{
     padding: 13px;
-	width: 650px;
+	width: 67%;
     margin: 100px auto 0px;
 }
 .fight img{
@@ -2730,23 +2711,23 @@ margin: auto;
 
 .btn-default {
     border-color: #ccc;
-    background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%) !important;
-    border: 0;
+    background: linear-gradient(89.65deg, #5E1AF5 2.43%, #B60AEE 94.76%) !important;    
+	border: 0;
     color: #fff !important;
     outline: none !important;
     text-transform: uppercase !important;
-    z-index: 2 !important;
+    z-index: 2222 !important;
 	line-height: 42px!important;
     padding: 5px 30px !important;
 }
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+/* .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
     left: -25% !important;
     margin-left: -10px;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: -136px !important;
-}
+} */
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0 10px;
     margin: 0 15px;
@@ -2791,8 +2772,7 @@ margin: auto;
 .navbar-expand-lg .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    /* -ms-flex-direction: row; */
     background: red;
     padding: 0px 60px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -2850,3 +2830,60 @@ font-size: 30px;
 line-height: 35px;
 color:#F9D1B2;
 }
+.buy-token{
+	background: linear-gradient(89.65deg, #291567 2.43%, #3D186B 94.76%) !important;
+border: 2px solid #FFFFFF;
+border-radius: 15px;
+
+}
+.bannerWrapper{
+	padding-top: 119px;
+}
+@media only screen and (max-width: 600px) {
+	.banner_text {
+		padding: 13px;
+		width: 100% !important;
+		margin: 100px auto 0px;
+	}
+	.v_dark .countdown_shape, .v_dark_light .countdown_shape {
+		background-image: url(../images/light_counter_bg2.png);
+		width: 100%;
+		margin: auto;
+	}
+	.bannerWrapper{
+		padding-top: 0px;
+	}
+	.banner_text h1 span {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 49px;
+		line-height: 63px;
+		text-align: center;
+		letter-spacing: 0.055em;
+		color: #FFFFFF;
+		/* border: 1px solid #FFFFFF; */
+		text-shadow: 1px 4.8px 34.23px rgb(255 255 255 / 33%);
+	}
+  }
+
+.navbar:after {
+    display: table;
+    content: " ";
+	display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
