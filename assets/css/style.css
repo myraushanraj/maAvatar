@@ -14,7 +14,7 @@ Version      : 1.4
 	05. ABOUT SECTION
 	06. TOKEN SECTION
 	07. TIMELINE SECTION
-	08. TEAM SECTION
+	08. TEAM SECTION1021
 	09. FAQ SECTION
 	10. CLIENT SECTION
 	11. CONTACT SECTION
@@ -29,7 +29,7 @@ Version      : 1.4
 body {
 	background: #ffffff none repeat scroll 0 0;
     color: #7a7a7a;
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -216,6 +216,11 @@ button:focus {
 .v_dark_light .title_light span, 
 .v_dark_light .title_dark span {
 	color: #26b6d4;
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
 }
 .v_dark_light .title_dark h2 {
 	color: #1a1c34;
@@ -1019,7 +1024,7 @@ header a:hover,.navbar-nav li a.active {
 .v_dark header.active,
 .v_dark_light .nav-fixed,
 .v_dark_light header.active {
-	background-color: transparent;
+	background: #16086e;
 }
 /*===================================*
 02. END HEADER DESIGN
@@ -2825,4 +2830,23 @@ margin: auto;
 .ion-ios-arrow-up{
 	right: 8px;
     position: relative;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px !important;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-brand>img {
+    display: block;
+    width: 75%;
+}
+.challenge{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+color:#F9D1B2;
 }
