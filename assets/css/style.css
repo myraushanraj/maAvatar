@@ -1466,22 +1466,24 @@ margin: auto;
 	position: absolute;
 	right: 0;
 	top: -120px;
-	transform: rotate(-60deg) skewY(30deg);
+	/* transform: rotate(-60deg) skewY(30deg); */
 	width: 27px;
+	width: 36px;
+    border-radius: 18px;
 }
 .roadmap_icon.icon_gradient_box::before {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(10px);
 }
 .roadmap_icon::before {
 	background-color: #26b6d4;
-	color: #ffffff;
+	color: #F81DFB;
 	content: "c";
 	display: block;
 	font-size: 21px;
 	font-weight: 700;
 	height: inherit;
-	transform: skewY(-30deg) rotate(60deg) translate(0%);
+	/* transform: skewY(-30deg) rotate(60deg) translate(0%); */
 	width: inherit;
 }
 .rd_complete .roadmap_icon::before {
@@ -1767,11 +1769,13 @@ margin: auto;
 	display: block;
 	font-weight:600;
 	padding: 15px 40px 15px 15px;
+	font-size: 25px;
 }
 .faq_content .card-body {
 	padding: 10px 15px;
 	position: relative;
 	z-index: 1;
+	font-size: 17px;
 }
 .faq_content .card {
   background-color: #25b8d5;
@@ -1825,10 +1829,11 @@ margin: auto;
 .v_dark .faq_content .card-header a,
 .v_dark_light .faq_content .card,
 .v_dark_light .faq_content .card-header a {
-	background-color: #1a1c34;
+	background: #291567;
+    border-radius: 9px;
 }
 .v_dark .faq_content .card-body::after {
-	background-color: #12142c;
+	background-color: transparent;
 }
 /*===================================*
 09. END FAQ SECTION
@@ -2779,7 +2784,9 @@ margin: auto;
     backdrop-filter: blur(20.8333px);
 }
 .advisorWrapper{
-	background: linear-gradient(81.97deg, #1D0042 8.22%, #1C0176 92.21%);
+	background: linear-gradient(81.97deg, #1D0042 8.22%, #1c0176ed 92.21%), url(../images/vector/partner.png);
+    background-repeat: no-repeat;
+    background-position: 134% 104%;
 }
 .featureWrapper{
     background: linear-gradient(81.97deg, #531990eb,#0f0434, #0f0434), url(../images/vector/specification.png);
@@ -2800,7 +2807,9 @@ margin: auto;
 	display: none !important;
 }
 .faqWrapper{
-	background-image: linear-gradient(to right, #070179, #0f0435, #3d076c);
+	background: linear-gradient(to right, #070179, #0f0435, #3d076ced), url(../images/vector/faqRight.png);
+    background-repeat: no-repeat;
+	background-position: 134% 157%;
 
 }
 .teamBottom .team_img img{
