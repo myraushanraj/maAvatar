@@ -1,1101 +1,1367 @@
-<!DOCTYPE html><html lang="en">
-
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- SITE TITLE -->
     <title>maavatar.io</title>
-    <meta name="theme-color" content="#16086e;">
+    <meta name="theme-color" content="#16086e;" />
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo-1.png">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/logo-1.png"
+    />
     <!-- Latest Bootstrap min CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css" />
     <!--- owl carousel CSS-->
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css" />
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-</head>
-
-<body class="v_dark" data-spy="scroll" data-offset="110">
+  <body class="v_dark" data-spy="scroll" data-offset="110">
     <!-- LOADER -->
     <div class="preloader">
-        <div id="g-spinner" class="loading">
-            <div class="circle c1"></div>
-            <div class="circle c2"></div>
-            <div class="circle c3"></div>
-            <div class="circle c4"></div>
-        </div>
+      <div id="g-spinner" class="loading">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+      </div>
     </div>
     <!-- END LOADER -->
 
     <!-- START HEADER -->
     <div class="topSection">
-        <header class="header_wrap fixed-top">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand page-scroll" href="#home"><img src="assets/images/logo-1.png" alt="Logo">
-                        <!-- <img class="logo_light" src="assets/images/logo.png" alt="logo" />
+      <header class="header_wrap fixed-top">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand page-scroll" href="#home"
+              ><img src="assets/images/logo-1.png" alt="Logo" />
+              <!-- <img class="logo_light" src="assets/images/logo.png" alt="logo" />
                     <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" /> -->
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span>
-                    </button>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="ion-android-menu"></span>
+            </button>
 
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav navbar-right">
-                            <!-- <li><a class="nav-link page-scroll" href="#how_it_work">How it Work</a></li> -->
-                            <li><a class="nav-link page-scroll" href="#">Home</a></li>
-                            <li><a class="nav-link page-scroll" href="#partner">Partner</a></li>
-                            <li><a class="nav-link page-scroll" href="#feature">Feature</a></li>
-                            <li><a class="nav-link page-scroll" href="#roadmap">Road Map</a></li>
-                            <li><a class="nav-link page-scroll" href="#team">Team</a></li>
-                            <li><a class="nav-link page-scroll" href="#gallery">Gallery</a></li>
-                            <li><a class="nav-link page-scroll" href="#faq">Faq</a></li>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav navbar-right">
+                <!-- <li><a class="nav-link page-scroll" href="#how_it_work">How it Work</a></li> -->
+                <li><a class="nav-link page-scroll" href="#">Home</a></li>
+                <li>
+                  <a class="nav-link page-scroll" href="#mobileApp">App</a>
+                </li>
+                <li>
+                    <a class="nav-link page-scroll" href="#feature">Feature</a>
+                  </li>
+                  <li>
+                    <a class="nav-link page-scroll" href="#roadmap">Road Map</a>
+                  </li>
+                  <li><a class="nav-link page-scroll" href="#team">Team</a></li>
+                <li class="hidden">
+                  <a class="nav-link page-scroll" href="#partner">Partner</a>
+                </li>
+              
+              
 
-                            <!-- <li><a class="nav-link page-scroll" href="#">Contact</a></li> -->
-                            <!-- <li><a class="nav-link page-scroll" href="#contact">Contact</a></li> -->
-                        </ul>
-                        <!-- <ul class="navbar-nav nav_btn">
+                <li class="hidden">
+                  <a class="nav-link page-scroll" href="#gallery">Gallery</a>
+                </li>
+                <li><a class="nav-link page-scroll" href="#faq">Faq</a></li>
+
+                <!-- <li><a class="nav-link page-scroll" href="#">Contact</a></li> -->
+                <!-- <li><a class="nav-link page-scroll" href="#contact">Contact</a></li> -->
+              </ul>
+              <!-- <ul class="navbar-nav nav_btn">
                         <li><a class="btn btn-default" href="login-dark.html">Login</a></li>
                         <li><a class="nav-link page-scroll btn btn-default" href="#mobileapp">Our App</a></li>
                     </ul> -->
-                    </div>
-                </nav>
             </div>
-        </header>
-        <!-- START HEADER -->
+          </nav>
+        </div>
+      </header>
+      <!-- START HEADER -->
 
-        <!-- START SECTION BANNER -->
-        <section id="home" class="bannerWrapper team_wrap small_pb">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-md-12 col-sm-12 order-first">
-                        <div class="banner_image_right res_md_mb_50 res_xs_mb_30">
-                            <div class="banner_text text-center">
-                                <h1><span>MaAvatar</span> </h1>
-                                <h1><span>World’s 1st FamilyVerse</span></h1>
-                                <p>The revolutionary metaverse where you can raise a realistic, NFT-based virtual child
-                                    and immerse yourself in endless gameplay possibilities.</p>
-                                <br />
-                                <div class="banner_btn">
-                                    <a href="#whitepaper" class="btn btn-default page-scroll nav-link">Whitepapter <i
-                                            class="ion-ios-arrow-thin-right"></i></a>
-                                    <a href="#" class="btn btn-border hidden">Buy Token Now! <i
-                                            class="ion-ios-arrow-thin-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="tk_countdown text-center countdown_shape">
-                                <div class="tk_counter_inner">
-                                    <div class="tk_countdown_time" data-time="2023/09/06 08:16:57"></div>
-                                    <a href="#" class="btn btn-default buy-token">Buy Token Now <i
-                                            class="ion-ios-arrow-thin-right"></i></a>
-                                </div>
-                            </div>
-                            <!-- <img src="assets/images/banner_vector2.png" alt="banner_vector2" /> -->
-                        </div>
-                    </div>
+      <!-- START SECTION BANNER -->
+      <section id="home" class="bannerWrapper team_wrap small_pb">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 order-first">
+              <div class="banner_image_right res_md_mb_50 res_xs_mb_30">
+                <div class="banner_text text-center">
+                  <h1><span >MaAvatar</span></h1>
+                  <h1><span class="maavatar-tag">World’s 1st FamilyVerse</span></h1>
+                  <p>
+                    Create Your Own Virtual Family with MaAvatar - Having parents, their children as NFTs, having lots of fun together, and experiencing different services.
+                  </p>
+                  <br />
+                  <div class="banner_btn">
+                    <a
+                      href="#whitepaper"
+                      class="btn btn-default page-scroll nav-link"
+                      >Whitepapter <i class="ion-ios-arrow-thin-right"></i
+                    ></a>
+                    <a href="#" class="btn btn-border hidden"
+                      >Buy Token Now! <i class="ion-ios-arrow-thin-right"></i
+                    ></a>
+                  </div>
                 </div>
+                <div class="tk_countdown text-center countdown_shape">
+                  <div class="tk_counter_inner">
+                    <div
+                      class="tk_countdown_time"
+                      data-time="2023/09/06 08:16:57"
+                    ></div>
+                    <a href="#" class="btn btn-default buy-token"
+                      >Buy Token Now <i class="ion-ios-arrow-thin-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- <img src="assets/images/banner_vector2.png" alt="banner_vector2" /> -->
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
-    <!-- END SECTION BANNER -->
 
-    <!-- START SECTION TEAM -->
-    <section id="partner" class="team_wrap small_pt small_pb advisorWrapper" data-parallax="scroll">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-                        <h2>Partner With Celebrities</h2>
-                    </div>
-                </div>
+    <section
+      id="mobileApp"
+      class="team_wrap small_pt small_pb appWrapper"
+      data-parallax="scroll"
+    >
+      <div class="container">
+        <div id="mobileapp" class="mobileapp text_md_center">
+          <div class="divider large_divider"></div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+              <div class="res_md_mt_50 res_sm_mt_30">
+                <img src="assets/images/mobile_dark.png" alt="mobile" />
+              </div>
             </div>
-            <div class="row small_space">
-                <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/stephan-plotnicov.png" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team1" class="content-popup">Stephan Plotnicov</a></h4>
-                            <p>Singer</p>
-                        </div>
-                        <div id="team1" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Director</span>
-                                            <h2>Walter Mark</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/Megan-Fox.png" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team2" class="content-popup">Megan-Fox</a></h4>
-                            <p>Actress</p>
-                        </div>
-                        <div id="team2" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Project Manager</span>
-                                            <h2>Lissa Tero</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 res_xs_mb_30">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/Lionel-Messi.png" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team3" class="content-popup">Lionel Messi</a></h4>
-                            <p>Football Player</p>
-                        </div>
-                        <div id="team3" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Programmer</span>
-                                            <h2>Kartik Sef</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/rakhi.jfif" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team4" class="content-popup">Dr. Rakhi Mehrotra</a></h4>
-                            <p>Pediatrician</p>
-                        </div>
-                        <div id="team4" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Market Analysis</span>
-                                            <h2>Laura Sandel</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="title_light">
+                <span>Video Trailer / Apps</span>
+                <h2 class="text-left">Mobile App</h2>
+                <p class="challenge"><strong>Fight Out Challenges</strong></p>
+                <br />
+                <p>
+                  Complete daily, weekly, or monthly challenges for additional
+                  earnings, Compete against other members of the Fight Out
+                  community for even greater rewards!
+                </p>
+              </div>
+              <div>
+                <a href="#" class="btn btn-default"
+                  ><span class="ion-social-android"></span>Google Store
+                  <i class="ion-ios-arrow-thin-right"></i
+                ></a>
+                <a href="#" class="btn btn-default"
+                  ><span class="ion-social-apple"></span>Apple Store
+                  <i class="ion-ios-arrow-thin-right"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="shape shap5"></div>
-        <div class="shape shap6"></div>
+      </div>
+      <div class="shape shap5"></div>
+      <div class="shape shap6"></div>
     </section>
+   
 
-    <!-- START SECTION TEAM -->
-    <section id="feature" class="team_wrap small_pt small_pb featureWrapper">
-        <div class="container-fluid sectionPadding">
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-                        <h2>Featured In</h2>
-                        <br/>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center text_md_center featureWrap">
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/bitcoin.png" alt="client_logo1" />
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/coindesk.png" alt="client_logo3" />
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/coin.png" alt="client_logo4" />
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/crypto.png" alt="client_logo6" />
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/decrypt.png" alt="client_logo6" />
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/blockchain.png" alt="client_logo6" />
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div>
-                        <img src="assets/images/feature/ewn.png" alt="client_logo6" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shape shap5"></div>
-        <div class="shape shap6"></div>
-    </section>
-    <section id="roadmap" class="team_wrap small_pt small_pb appWrapper" data-parallax="scroll">
-        <div class="container">
-            <div id="mobileapp" class="mobileapp text_md_center">
-                <div class="divider large_divider"></div>
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-                        <div class="res_md_mt_50 res_sm_mt_30">
-                            <img src="assets/images/mobile_dark.png" alt="mobile" />
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="title_light">
-                            <span>Video Trailer / Apps</span>
-                            <h2 class="text-left">Mobile App</h2>
-                            <p class="challenge"><strong >Fight Out Challenges</strong></p>
-                            <br/>
-                            <p>Complete daily, weekly, or monthly challenges for additional earnings, Compete against
-                                other members of the Fight Out community for even greater rewards!</p>
-
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-default"><span class="ion-social-android"></span>Google Store <i
-                                    class="ion-ios-arrow-thin-right"></i></a>
-                            <a href="#" class="btn btn-default"><span class="ion-social-apple"></span>Apple Store <i
-                                    class="ion-ios-arrow-thin-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shape shap5"></div>
-        <div class="shape shap6"></div>
-    </section>
-    <!-- END SECTION TEAM -->
-    <!-- START CLIENTS SECTION -->
-    <!-- END CLIENTS SECTION -->
-
+    
     <div class="sliderRoad">
-    <!-- START SECTION TOKEN -->
-    <section id="token" class="section_token small_pt small_pb">
-        <div class="container">
-            <div class="row text-center hidden">
-                <div class="col-md-12">
-                    <div class="title_light">
-                        <h2>How To Buy MEMAG (Presale)</h2>
-                    </div>
+        <!-- START SECTION TOKEN -->
+        <section id="virtual" class="section_token small_pt small_pb">
+          <div class="container">
+           
+            <div class="row text-center fight">
+              <div class="col-md-12">
+                <div class="title_light">
+                  <h2>Raise a Virtual Child with Pride and Score High</h2>
+                  <span
+                    >MaAvatar offers you the opportunity to experience pregnancy
+                    and parenting journey through a virtual world and ultimately
+                    raising your virtual family.</span
+                  >
+                  <br />
                 </div>
+              </div>
+              <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <!-- <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol> -->
+  
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img
+                        src="./assets/images/slider1.png"
+                        alt="Los Angeles"
+                        style="width: 100%"
+                      />
+                    </div>
+  
+                    <div class="item">
+                      <img
+                        src="./assets/images/slider2.png"
+                        alt="Chicago"
+                        style="width: 100%"
+                      />
+                    </div>
+                  </div>
+  
+                  <!-- Left and right controls -->
+                  <a
+                    class="left carousel-control"
+                    href="#myCarousel"
+                    data-slide="prev"
+                  >
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="right carousel-control"
+                    href="#myCarousel"
+                    data-slide="next"
+                  >
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="row hidden">
-
-                <div class="col-lg-6 offset-lg-0 col-md-12 offset-md-2 text_md_center res_md_mt_30">
-                    <div class="tk_countdown text-center countdown_shape">
-                        <div class="title_light">
-                            <span>Getting Started</span>
-                            <h2></h2>
-                        </div>
-                        <p>To get started you'll need your very own crypto wallet. If you don't have a wallet already
-                            then you can download MetaMask here from the official MetaMask site.It should be noted that
-                            purchasing from a desktop browser will give you a smoother buying experience.</p>
-                        <p>If you're on mobile you can use Wallet Connect to connect one of the supported wallets-we'd
-                            recommend Trust Wallet.</p>
-                        <p>Once you've got your wallet set up, come back to memagio and connect your wallet in order to
-                            start your purchase.</p>
-                        <p>After the presale closes, you'll be able to claim your tokens on the Meta Masters Guild claim
-                            page. Keep your eye on our social channels for announcements relating to claiming.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-0 col-md-12 offset-md-2 text_md_center res_md_mt_30">
-                    <div class="tk_countdown text-center countdown_shape">
-                        <div class="title_light">
-                            <span>Buying MEMAG</span>
-                            <p>Once you've connected your wallet, you'll get three options.</p>
-                        </div>
-                        <div class="pr_box">
-                            <h6>Buy with ETH</h6>
-                            <p>In order to buy with FTH, simply arter how much MEMACS you want to buy, or how much ETH
-                                you want to swap You will need to confirm the transaction and the gas cost.</p>
-                        </div>
-                        <div class="pr_box">
-                            <h6>Buy with ETH</h6>
-                            <p>In order to buy with FTH, simply arter how much MEMACS you want to buy, or how much ETH
-                                you want to swap You will need to confirm the transaction and the gas cost.</p>
-                        </div>
-                        <div class="pr_box">
-                            <h6>Buy with USDT</h6>
-                            <p>In order to buy with USDT, simply enter how much MEMAG you want to buy, or how much USDT
-                                you want to swap. You will need to confirm the transaction and the gas cost, and need to
-                                ensure you have enough FTH (0.005 FTH) to cover gas.</p>
-                        </div>
-                        <div class="pr_box">
-                            <h6>Buy ETH with Card</h6>
-                            <p>If you don't have enough ETH, you can use Transak to buy the ETH you need to purchase
-                                tokens in the presale. Choose your purchase method, go through their simple KYC flow,
-                                and you'll be able to make a purchase directly in the widget.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="shape shap5"></div>
+          <div class="shape shap6"></div>
+        </section>
+      </div>
+      <section id="feature" class="team_wrap small_pt small_pb featureWrapper">
+        <div class="container-fluid sectionPadding">
+          <div class="row text-center">
+            <div class="col-lg-8 col-md-12 offset-lg-2">
+              <div class="title_light">
+                <h2>Featured In</h2>
+                <br />
+              </div>
             </div>
-            <div class="divider large_divider hidden"></div>
-            <div class="row text-center hidden">
-                <div class="col-md-12">
-                    <div class="title_light">
-                        <h2>Ecosystem</h2>
-                        <span>All games in our ecosystem will use the MEMAG taken as currency and incorporate in-game
-                            rewards colled Gems that can be converted back to MEMAG</span>
-                    </div>
-                </div>
+          </div>
+          <div class="row align-items-center text_md_center featureWrap">
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img src="assets/images/feature/bitcoin.png" alt="client_logo1" />
+              </div>
             </div>
-            <div class="row align-items-center res_md_mt_20 hidden">
-                <div class="col-md-7">
-                    <div class="token_chart res_sm_mb_30 text-center">
-                        <div class="tk_countdown text-center countdown_shape">
-                            <p>Meta Masters Guild is fast becoming one of the biggest-hyped gaming guilds pushing the
-                                boundaries of the Play-to-Eam space.</p>
-                            <p>Our mission is to be the largest mobile gaming guild in Web3 creating fun and addictive
-                                gaming titles with playable NFTS, where our community can eam rewards, stake and trade.
-                            </p>
-                            <p>Meta Masters Guild isn't just another gaming guild, it's the future of P2E.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <ul class="list_none chart_list">
-                        <li>Play Games To Win Gems</li>
-                        <li>Exchange Gems For MEMAO Tokens</li>
-                        <li>Win Or Buy NFTS From store</li>
-                        <li>Stake Tokens & NFTS To Earn Yield</li>
-                        <li>Exchange MEMAO TO ETH Or USDT</li>
-                    </ul>
-                </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img
+                  src="assets/images/feature/coindesk.png"
+                  alt="client_logo3"
+                />
+              </div>
             </div>
-
-
-            <!-- mobile start -->
-
-            <!-- Mobile end -->
-            <br />
-            <div class="row text-center fight ">
-                <div class="col-md-12">
-                    <div class="title_light">
-                        <h2>Raise a Virtual Child with Pride and Score High</h2>
-                        <span>MaAvatar offers you the opportunity to experience pregnancy and parenting journey through
-                            a virtual world and ultimately raising your virtual family.</span>
-                        <br />
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <!-- <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol> -->
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="./assets/images/slider1.png" alt="Los Angeles" style="width:100%;">
-                            </div>
-
-                            <div class="item">
-                                <img src="./assets/images/slider2.png" alt="Chicago" style="width:100%;">
-                            </div>
-
-                        </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-
-
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img src="assets/images/feature/coin.png" alt="client_logo4" />
+              </div>
             </div>
-
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img src="assets/images/feature/crypto.png" alt="client_logo6" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img src="assets/images/feature/decrypt.png" alt="client_logo6" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img
+                  src="assets/images/feature/blockchain.png"
+                  alt="client_logo6"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div>
+                <img src="assets/images/feature/ewn.png" alt="client_logo6" />
+              </div>
+            </div>
+          </div>
         </div>
         <div class="shape shap5"></div>
         <div class="shape shap6"></div>
-    </section>
-    <!-- END SECTION TOKEN -->
+      </section>
 
 
-
-    <!-- START SECTION TIMELINE & MOBILE APP -->
-    <section id="road_map" class="small_pt small_pb">
-        <div class="container">
+<!-- road map -->
+      <div class="sliderRoad">
+      
+  
+        <!-- START SECTION TIMELINE & MOBILE APP -->
+        <section id="roadmap" class="small_pt small_pb">
+          <div class="container">
             <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-                        <h2>Road Map</h2>
-                    </div>
+              <div class="col-lg-8 col-md-12 offset-lg-2">
+                <div class="title_light">
+                  <h2>Road Map</h2>
                 </div>
+              </div>
             </div>
             <div class="roadmap owl-carousel small_space">
-                <div class="item">
-                    <div class="roadmap_box rd_complete">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>Finalize game mechanics and design</h6>
-
-                            <li>Create and test MVP of the game</li>
-                            <li>Develop and test smart contract for NFTs</li>
-                            <li>Develop and test the companion breeding system</li>
-                            <li>Develop and test the in-game marketplace</li>
-                        </div>
-                    </div>
+              <div class="item">
+                <div class="roadmap_box rd_complete">
+                  <div class="roadmap_inner">
+                    <div class="roadmap_icon icon_gradient_box"></div>
+                    <h6>Finalize game mechanics and design</h6>
+  
+                    <li>Create and test MVP of the game</li>
+                    <li>Develop and test smart contract for NFTs</li>
+                    <li>Develop and test the companion breeding system</li>
+                    <li>Develop and test the in-game marketplace</li>
+                  </div>
                 </div>
-                <div class="item">
-                    <div class="roadmap_box rd_complete">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>Closed Beta Testing (Q3 2023)</h6>
-                            <li>Invite a limited number of players to test the game</li>
-                            <li>Collect feedback and make necessary adjustments</li>
-                            <li>Continue development and testing of additional features</li>
-                        </div>
-                    </div>
+              </div>
+              <div class="item">
+                <div class="roadmap_box rd_complete">
+                  <div class="roadmap_inner">
+                    <div class="roadmap_icon icon_gradient_box"></div>
+                    <h6>Closed Beta Testing (Q3 2023)</h6>
+                    <li>Invite a limited number of players to test the game</li>
+                    <li>Collect feedback and make necessary adjustments</li>
+                    <li>
+                      Continue development and testing of additional features
+                    </li>
+                  </div>
                 </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>Open Beta Testing (Q4 2023) </h6>
-                            <li>Open the game to a larger number of players for testing</li>
-                            <li>Continue to collect feedback and make adjustments</li>
-                            <li>Prepare for official launch</li>
-                        </div>
-                    </div>
+              </div>
+              <div class="item">
+                <div class="roadmap_box">
+                  <div class="roadmap_inner">
+                    <div class="roadmap_icon icon_gradient_box"></div>
+                    <h6>Open Beta Testing (Q4 2023)</h6>
+                    <li>
+                      Open the game to a larger number of players for testing
+                    </li>
+                    <li>Continue to collect feedback and make adjustments</li>
+                    <li>Prepare for official launch</li>
+                  </div>
                 </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>Official Launch (Q1 2024)</h6>
-                            <li>Release the game to the public</li>
-                            <li>Continuously update and improve the game based on player feedback</li>
-                            <li>Introduce new features and content</li>
-                            <li>Expand the game to new platforms</li>
-                        </div>
-                    </div>
+              </div>
+              <div class="item">
+                <div class="roadmap_box">
+                  <div class="roadmap_inner">
+                    <div class="roadmap_icon icon_gradient_box"></div>
+                    <h6>Official Launch (Q1 2024)</h6>
+                    <li>Release the game to the public</li>
+                    <li>
+                      Continuously update and improve the game based on player
+                      feedback
+                    </li>
+                    <li>Introduce new features and content</li>
+                    <li>Expand the game to new platforms</li>
+                  </div>
                 </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>Community Building and Expansion (Q2-Q3 2024)</h6>
-                            <li>Host events and tournaments for players</li>
-                            <li>Collaborate with influencers and content creators to promote the game</li>
-                            <li>Expand the game to new regions and languages</li>
-                        </div>
-                    </div>
+              </div>
+              <div class="item">
+                <div class="roadmap_box">
+                  <div class="roadmap_inner">
+                    <div class="roadmap_icon icon_gradient_box"></div>
+                    <h6>Community Building and Expansion (Q2-Q3 2024)</h6>
+                    <li>Host events and tournaments for players</li>
+                    <li>
+                      Collaborate with influencers and content creators to promote
+                      the game
+                    </li>
+                    <li>Expand the game to new regions and languages</li>
+                  </div>
                 </div>
-
+              </div>
             </div>
+          </div>
+        </section>
+        <!-- END SECTION TIMELINE & MOBILE APP -->
+      </div>
 
 
+      
+    <section
+      id="partner"
+      class="team_wrap small_pt small_pb advisorWrapper hidden"
+      data-parallax="scroll"
+    >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-8 col-md-12 offset-lg-2">
+            <div class="title_light">
+              <h2>Partner With Celebrities</h2>
+            </div>
+          </div>
         </div>
+        <div class="row small_space">
+          <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/stephan-plotnicov.png" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4>
+                  <a href="#team1" class="content-popup">Stephan Plotnicov</a>
+                </h4>
+                <p>Singer</p>
+              </div>
+              <div id="team1" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Director</span>
+                        <h2>Walter Mark</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/Megan-Fox.png" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4><a href="#team2" class="content-popup">Megan-Fox</a></h4>
+                <p>Actress</p>
+              </div>
+              <div id="team2" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Project Manager</span>
+                        <h2>Lissa Tero</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 res_xs_mb_30">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/Lionel-Messi.png" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4><a href="#team3" class="content-popup">Lionel Messi</a></h4>
+                <p>Football Player</p>
+              </div>
+              <div id="team3" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Programmer</span>
+                        <h2>Kartik Sef</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/rakhi.jfif" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4>
+                  <a href="#team4" class="content-popup">Dr. Rakhi Mehrotra</a>
+                </h4>
+                <p>Pediatrician</p>
+              </div>
+              <div id="team4" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Market Analysis</span>
+                        <h2>Laura Sandel</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shape shap5"></div>
+      <div class="shape shap6"></div>
     </section>
-    <!-- END SECTION TIMELINE & MOBILE APP -->
-</div>
+
     <!-- START SECTION TEAM -->
-    <section id="team" class="team_wrap small_pt small_pb advisorWrapper teamBottom">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-                        <h2>Meet The Team</h2>
-                    </div>
-                </div>
+ 
+
+    <!-- START SECTION TEAM -->
+    <section
+      id="team"
+      class="team_wrap small_pt small_pb advisorWrapper teamBottom"
+    >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-8 col-md-12 offset-lg-2">
+            <div class="title_light">
+              <h2>Meet The Team</h2>
             </div>
-            <div class="row small_space">
-                <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/ritesh.jfif" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team1" class="content-popup">Rit</a></h4>
-                            <p>CEO</p>
-                        </div>
-                        <div id="team1" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/rach.jfif"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Director</span>
-                                            <h2>Walter Mark</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/rachana.jfif" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team2" class="content-popup">Rach</a></h4>
-                            <p>CMO</p>
-                        </div>
-                        <div id="team2" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Project Manager</span>
-                                            <h2>Lissa Tero</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 res_xs_mb_30">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/abhi.jpeg" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team3" class="content-popup">Abhi</a></h4>
-                            <p>CTO</p>
-                        </div>
-                        <div id="team3" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Programmer</span>
-                                            <h2>Kartik Sef</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team_box">
-                        <div class="team_img text-center">
-                            <img src="assets/images/prash.jfif" alt="user_img" />
-                            <div class="social_team list_none">
-                                <ul>
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_info text-center">
-                            <h4><a href="#team4" class="content-popup">Prash</a></h4>
-                            <p>CBO</p>
-                        </div>
-                        <div id="team4" class="team_pop mfp-hide">
-                            <div class="row m-0">
-                                <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/user_img-lg.jpg"
-                                        alt="user_img-lg" /> </div>
-                                <div class="col-md-6">
-                                    <div class="pt-3 pb-3">
-                                        <div class="title_dark"> <span>Market Analysis</span>
-                                            <h2>Laura Sandel</h2>
-                                        </div>
-                                        <div class="social_single_team list_none">
-                                            <ul>
-                                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <p>Founder of Venus Media Ltd and Owner of leading website for affiliates in the
-                                            entertainment industry TakeBucks, he is a videographer, photographer and
-                                            producer with a big number of successful entrepreneurships under his name
-                                            over the last 18 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div id="contact hidden" class="hidden">
-                <div class="divider large_divider"></div>
-                <div class="row text-center">
-                    <div class="col-lg-8 col-md-12 offset-lg-2">
-                        <div class="title_light">
-
-                            <h2>Contact</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row small_space">
-                    <div class="col-lg-5 col-md-12">
-                        <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
-                    </div>
-                    <div class="col-lg-7 col-md-12">
-
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="shape shap5"></div>
-        <div class="shape shap6"></div>
+        <div class="row small_space">
+          <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/ritesh.jfif" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4><a href="#team1" class="content-popup">Rit</a></h4>
+                <p>CEO</p>
+              </div>
+              <div id="team1" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/rach.jfif"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Director</span>
+                        <h2>Walter Mark</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 res_md_mb_30">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/rachana.jfif" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4><a href="#team2" class="content-popup">Rach</a></h4>
+                <p>CMO</p>
+              </div>
+              <div id="team2" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Project Manager</span>
+                        <h2>Lissa Tero</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 res_xs_mb_30">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/abhi.jpeg" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4><a href="#team3" class="content-popup">Abhi</a></h4>
+                <p>CTO</p>
+              </div>
+              <div id="team3" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Programmer</span>
+                        <h2>Kartik Sef</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="team_box">
+              <div class="team_img text-center">
+                <img src="assets/images/prash.jfif" alt="user_img" />
+                <div class="social_team list_none">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_info text-center">
+                <h4><a href="#team4" class="content-popup">Prash</a></h4>
+                <p>CBO</p>
+              </div>
+              <div id="team4" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/user_img-lg.jpg"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="pt-3 pb-3">
+                      <div class="title_dark">
+                        <span>Market Analysis</span>
+                        <h2>Laura Sandel</h2>
+                      </div>
+                      <div class="social_single_team list_none">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-googleplus"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <p>
+                        Founder of Venus Media Ltd and Owner of leading website
+                        for affiliates in the entertainment industry TakeBucks,
+                        he is a videographer, photographer and producer with a
+                        big number of successful entrepreneurships under his
+                        name over the last 18 years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact hidden" class="hidden">
+          <div class="divider large_divider"></div>
+          <div class="row text-center">
+            <div class="col-lg-8 col-md-12 offset-lg-2">
+              <div class="title_light">
+                <h2>Contact</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row small_space">
+            <div class="col-lg-5 col-md-12">
+              <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
+            </div>
+            <div class="col-lg-7 col-md-12"></div>
+          </div>
+        </div>
+      </div>
+      <div class="shape shap5"></div>
+      <div class="shape shap6"></div>
     </section>
     <!-- END SECTION TEAM -->
-    <section id="gallery" class="team_wrap small_pt small_pb advisorWrapper teamBottom" data-parallax="scroll">
-    <div class="container">
+    <section
+      id="gallery"
+      class="team_wrap small_pt small_pb advisorWrapper teamBottom"
+      data-parallax="scroll"
+    >
+      <div class="container">
         <div class="row text-center">
+          <div class="col-lg-8 col-md-12 offset-lg-2">
+            <div class="title_light">
+              <h2>Gallery</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row small_space">
+          <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
+            <div>
+              <div class="text-center">
+                <img src="assets/images/sdfds.jpg" alt="user_img" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
+            <div>
+              <div class="text-center">
+                <img src="assets/images/mom-and-daughte.png" alt="user_img" />
+              </div>
+              <div id="team1" class="team_pop mfp-hide">
+                <div class="row m-0">
+                  <div class="col-md-6">
+                    <img
+                      class="w-100 pt-3 pb-3"
+                      src="assets/images/rach.jfif"
+                      alt="user_img-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
+            <div>
+              <div class="text-center">
+                <img
+                  src="assets/images/turbosquid-boy-child-rigged-ben-2.png"
+                  alt="user_img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row small_space">
+          <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
+            <div>
+              <div class="text-center">
+                <img
+                  src="assets/images/baby-in-stripped-suit.png"
+                  alt="user_img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
+            <div>
+              <div class="text-center">
+                <img src="assets/images/baby-sitting.png" alt="user_img" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
+            <div>
+              <div class="text-center">
+                <img src="assets/images/bbr_prev_001.png" alt="user_img" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact hidden" class="hidden">
+          <div class="divider large_divider"></div>
+          <div class="row text-center">
             <div class="col-lg-8 col-md-12 offset-lg-2">
-                <div class="title_light">
-                    <h2>Gallery</h2>
-                </div>
+              <div class="title_light">
+                <h2>Contact</h2>
+              </div>
             </div>
+          </div>
+          <div class="row small_space">
+            <div class="col-lg-5 col-md-12">
+              <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
+            </div>
+            <div class="col-lg-7 col-md-12"></div>
+          </div>
         </div>
-        <div class="row small_space">
-            <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
-                <div>
-                    <div class="text-center">
-                        <img src="assets/images/sdfds.jpg" alt="user_img" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
-                <div>
-                    <div class="text-center">
-                        <img src="assets/images/mom-and-daughte.png" alt="user_img" />
-                    </div>
-                    <div id="team1" class="team_pop mfp-hide">
-                        <div class="row m-0">
-                            <div class="col-md-6"> <img class="w-100 pt-3 pb-3" src="assets/images/rach.jfif"
-                                    alt="user_img-lg" /> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
-                <div>
-                    <div class="text-center">
-                        <img src="assets/images/turbosquid-boy-child-rigged-ben-2.png" alt="user_img" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row small_space">
-            <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
-                <div>
-                    <div class="text-center">
-                        <img src="assets/images/baby-in-stripped-suit.png" alt="user_img" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
-                <div>
-                    <div class="text-center">
-                        <img src="assets/images/baby-sitting.png" alt="user_img" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 res_md_mb_30">
-                <div>
-                    <div class="text-center">
-                        <img src="assets/images/bbr_prev_001.png" alt="user_img" />
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="shape shap5"></div>
+      <div class="shape shap6"></div>
+    </section>
 
-        <div id="contact hidden" class="hidden">
-            <div class="divider large_divider"></div>
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-
-                        <h2>Contact</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row small_space">
-                <div class="col-lg-5 col-md-12">
-                    <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
-                </div>
-                <div class="col-lg-7 col-md-12">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape shap5"></div>
-    <div class="shape shap6"></div>
-</section>
-
-    <section id="faq" class="team_wrap small_pt small_pb faqWrapper" data-parallax="scroll">
-    <div class="container">
-     
-      
-
+    <section
+      id="faq"
+      class="team_wrap small_pt small_pb faqWrapper"
+      data-parallax="scroll"
+    >
+      <div class="container">
         <div id="faq">
-            <div class="divider large_divider"></div>
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-
-                        <h2>Frequently Asked Questions</h2>
-                        <span>FAQs</span>
-                    </div>
-                </div>
+          <div class="divider large_divider"></div>
+          <div class="row text-center">
+            <div class="col-lg-8 col-md-12 offset-lg-2">
+              <div class="title_light">
+                <h2>Frequently Asked Questions</h2>
+                <span>FAQs</span>
+              </div>
             </div>
-            <div class="row small_space">
-                <div class="col-lg-3 col-md-12">
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <div id="accordion" class="faq_content">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">What is MaAvatar?</a> </h6>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordion">
-                                <div class="card-body"> MaAvatar is a blockchain-based virtual metaverse game that
-                                    allows players to raise and take care of realistic, NFT-based virtual children.
-                                    It also offers immersive gameplay with endless possibilities. </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">How does MaAvatar differ
-                                        from other virtual baby games?</a> </h6>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordion">
-                                <div class="card-body"> MaAvatar offers realistic NFT avatars, the ability to breed
-                                    with celebrity avatars, and the opportunity to raise a virtual family in the
-                                    MaAvatar metaverse. It also offers monetization opportunities for both players
-                                    and businesses. </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseThree">How do I raise a virtual
-                                        child in MaAvatar?</a> </h6>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordion">
-                                <div class="card-body"> Players can breed with celebrity avatars or with their
-                                    partner's attributes to create a unique and realistic virtual child. Players can
-                                    then take care of the virtual child by engaging in various in-game activities
-                                    and playing mini-games. </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">What is the MaAvatar
-                                        (MAAV) token? </a> </h6>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordion">
-                                <div class="card-body"> The MaAvatar token is the in-game currency that players can
-                                    use to purchase virtual items, in-game experiences and other features within the
-                                    game. It can also be traded on various NFT marketplaces.</div>
-                            </div>
-                        </div>
+          </div>
+          <div class="row small_space">
+            <div class="col-lg-3 col-md-12"></div>
+            <div class="col-lg-9 col-md-12">
+              <div id="accordion" class="faq_content">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h6 class="mb-0">
+                      <a
+                        data-toggle="collapse"
+                        href="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                        >What is MaAvatar?</a
+                      >
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      MaAvatar is a blockchain-based virtual metaverse game that
+                      allows players to raise and take care of realistic,
+                      NFT-based virtual children. It also offers immersive
+                      gameplay with endless possibilities.
                     </div>
+                  </div>
                 </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h6 class="mb-0">
+                      <a
+                        class="collapsed"
+                        data-toggle="collapse"
+                        href="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                        >How does MaAvatar differ from other virtual baby
+                        games?</a
+                      >
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      MaAvatar offers realistic NFT avatars, the ability to
+                      breed with celebrity avatars, and the opportunity to raise
+                      a virtual family in the MaAvatar metaverse. It also offers
+                      monetization opportunities for both players and
+                      businesses.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h6 class="mb-0">
+                      <a
+                        class="collapsed"
+                        data-toggle="collapse"
+                        href="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                        >How do I raise a virtual child in MaAvatar?</a
+                      >
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="headingThree"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Players can breed with celebrity avatars or with their
+                      partner's attributes to create a unique and realistic
+                      virtual child. Players can then take care of the virtual
+                      child by engaging in various in-game activities and
+                      playing mini-games.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h6 class="mb-0">
+                      <a
+                        class="collapsed"
+                        data-toggle="collapse"
+                        href="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                        >What is the MaAvatar (MAAV) token?
+                      </a>
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    class="collapse"
+                    aria-labelledby="headingFour"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      The MaAvatar token is the in-game currency that players
+                      can use to purchase virtual items, in-game experiences and
+                      other features within the game. It can also be traded on
+                      various NFT marketplaces.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
 
         <div id="contact hidden" class="hidden">
-            <div class="divider large_divider"></div>
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-
-                        <h2>Contact</h2>
-                    </div>
-                </div>
+          <div class="divider large_divider"></div>
+          <div class="row text-center">
+            <div class="col-lg-8 col-md-12 offset-lg-2">
+              <div class="title_light">
+                <h2>Contact</h2>
+              </div>
             </div>
-            <div class="row small_space">
-                <div class="col-lg-5 col-md-12">
-                    <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
-                </div>
-                <div class="col-lg-7 col-md-12">
-
-                </div>
+          </div>
+          <div class="row small_space">
+            <div class="col-lg-5 col-md-12">
+              <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
             </div>
+            <div class="col-lg-7 col-md-12"></div>
+          </div>
         </div>
-    </div>
-    <div class="shape shap5"></div>
-    <div class="shape shap6"></div>
-</section>
-
-
-
-
+      </div>
+      <div class="shape shap5"></div>
+      <div class="shape shap6"></div>
+    </section>
 
     <!-- START FOOTER SECTION -->
     <footer>
-        <!-- <div class="top_footer bg_black_dark text_md_center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-sm-12 res_lg_mb_50 res_sm_mb_40">
-                        <h4 class="footer_title">Social Media</h4>
-                        <ul class="list_none footer_social">
-                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
-                            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-sm-12 res_lg_mb_50 res_sm_mb_40">
-                        <div class="newsletter_form newslattter_small">
-                            <h4 class="footer_title">Subscribe Our Newsletter</h4>
-                            <form>
-                                <div class="outline_input">
-                                    <input type="text" required placeholder="Enter Email Address" />
-                                </div>
-                                <button type="submit" title="Subscribe" class="btn btn-default" name="submit" value="Submit"><span class="ion-android-send"></span>Subscribe <i class="ion-ios-arrow-thin-right"></i></button>
-                            </form>
-                        </div>
-
-                    </div>
-                    <div class="col-xl-3 col-lg-12 col-sm-12">
-                        <h4 class="footer_title">Quick Links</h4>
-                        <ul class="list_none footer_link">
-                            <li><a href="#">Cryptoking ICO</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">How It Works</a></li>
-                            <li><a href="#">Whitepaper</a></li>
-                            <li><a href="#">Tokens</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Road Map</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
+      
+      <div class="bottom_footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="copyright">Copyright © 2023 All Rights Reserved.</p>
             </div>
-            <div class="rounded_shape light_rounded_shape4"></div>
-        </div> -->
-        <div class="bottom_footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="copyright">Copyright © 2023 All Rights Reserved.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="list_none footer_menu">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-6">
+              <ul class="list_none footer_menu">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- END FOOTER SECTION -->
 
@@ -1107,7 +1373,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!-- owl-carousel min js  -->
     <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
-   
 
     <!-- parallax js  -->
     <script src="assets/js/parallax.js"></script>
@@ -1115,14 +1380,12 @@
     <!-- countdown js  -->
     <script src="assets/js/jquery.countdown.min.js"></script>
     <!-- particles min js  -->
-  
+
     <!-- chart js  -->
     <!-- <script src="assets/js/Chart.bundle.js"></script>
     <script src="assets/js/Chart.PieceLabel.min.js"></script>
     <script src="assets/js/chart_script.js"></script> -->
     <!-- scripts js -->
     <script src="assets/js/scripts.js"></script>
-
-</body>
-
+  </body>
 </html>

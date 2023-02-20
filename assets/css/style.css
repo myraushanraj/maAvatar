@@ -2848,6 +2848,9 @@ border-radius: 15px;
 .bannerWrapper{
 	padding-top: 119px;
 }
+.maavatar-tag{
+font-size: 36px !important;
+}
 @media only screen and (max-width: 600px) {
 	.banner_text {
 		padding: 13px;
