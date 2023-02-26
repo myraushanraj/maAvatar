@@ -104,7 +104,7 @@
                 </li>
                 <li><a class="nav-link page-scroll" href="#faq">Faq</a></li>
 
-                <!-- <li><a class="nav-link page-scroll" href="#">Contact</a></li> -->
+                <li><a class="nav-link page-scroll" href="#contact">Contact</a></li>
                 <!-- <li><a class="nav-link page-scroll" href="#contact">Contact</a></li> -->
               </ul>
               <!-- <ul class="navbar-nav nav_btn">
@@ -1069,22 +1069,7 @@
           </div>
         </div>
 
-        <div id="contact hidden" class="hidden">
-          <div class="divider large_divider"></div>
-          <div class="row text-center">
-            <div class="col-lg-8 col-md-12 offset-lg-2">
-              <div class="title_light">
-                <h2>Contact</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row small_space">
-            <div class="col-lg-5 col-md-12">
-              <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
-            </div>
-            <div class="col-lg-7 col-md-12"></div>
-          </div>
-        </div>
+    
       </div>
       <div class="shape shap5"></div>
       <div class="shape shap6"></div>
@@ -1092,7 +1077,7 @@
     <!-- END SECTION TEAM -->
     <section
       id="gallery"
-      class="team_wrap small_pt small_pb advisorWrapper teamBottom"
+      class="team_wrap small_pt small_pb advisorWrapper teamBottom hidden"
       data-parallax="scroll"
     >
       <div class="container">
@@ -1167,22 +1152,6 @@
           </div>
         </div>
 
-        <div id="contact hidden" class="hidden">
-          <div class="divider large_divider"></div>
-          <div class="row text-center">
-            <div class="col-lg-8 col-md-12 offset-lg-2">
-              <div class="title_light">
-                <h2>Contact</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row small_space">
-            <div class="col-lg-5 col-md-12">
-              <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
-            </div>
-            <div class="col-lg-7 col-md-12"></div>
-          </div>
-        </div>
       </div>
       <div class="shape shap5"></div>
       <div class="shape shap6"></div>
@@ -1195,7 +1164,6 @@
     >
       <div class="container">
         <div id="faq">
-          <div class="divider large_divider"></div>
           <div class="row text-center">
             <div class="col-lg-8 col-md-12 offset-lg-2">
               <div class="title_light">
@@ -1323,26 +1291,63 @@
           </div>
         </div>
 
-        <div id="contact hidden" class="hidden">
-          <div class="divider large_divider"></div>
-          <div class="row text-center">
-            <div class="col-lg-8 col-md-12 offset-lg-2">
-              <div class="title_light">
-                <h2>Contact</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row small_space">
-            <div class="col-lg-5 col-md-12">
-              <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
-            </div>
-            <div class="col-lg-7 col-md-12"></div>
-          </div>
-        </div>
       </div>
       <div class="shape shap5"></div>
       <div class="shape shap6"></div>
     </section>
+
+    <section
+    id="contact"
+    class="team_wrap small_pt small_pb advisorWrapper teamBottom"
+    data-parallax="scroll"
+  >
+    <div class="container">
+
+   
+     
+
+      <div id="" class="">
+        <div class="divider large_divider"></div>
+        <div class="row text-center">
+          <div class="col-lg-8 col-md-12 offset-lg-2">
+            <div class="title_light">
+              <h2>Contact</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row small_space">
+          <div class="col-lg-5 col-md-12">
+            <img src="./assets/images/faq.png" alt="faq-image" class="auto" />
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <form action="" method="post" id="myForm" onsubmit="event.preventDefault(); validateMyForm();">
+              <div class="form-group">
+                <label for="email">First Name</label>
+                <input type="text" class="form-control" name="first_name">
+              </div>
+              <div class="form-group">
+                <label for="email">Last Name</label>
+                <input type="text" class="form-control" name="last_name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" name="email">
+              </div>
+              <div class="form-group">
+                <label for="comment">Message</label>
+                <textarea class="form-control" rows="5" name="message"></textarea>
+              </div>
+            
+            
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shape shap5"></div>
+    <div class="shape shap6"></div>
+  </section>
 
     <!-- START FOOTER SECTION -->
     <footer>

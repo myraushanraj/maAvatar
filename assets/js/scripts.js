@@ -357,3 +357,15 @@ LANDING PAGE JS
 
 })(jQuery);
 
+function validateMyForm(){
+	alert("We will connect you soon!");
+	const form = document.querySelector('form')
+const data = {};
+  const formData = new FormData(form);
+  console.log("form", formData)
+  for (const pair of formData.entries()) {
+	data[pair[0]] = pair[1];
+  }
+console.log("datya", data)
+document.getElementById("myForm").reset();
+}

@@ -215,7 +215,7 @@ button:focus {
 .v_dark .title_dark span,
 .v_dark_light .title_light span, 
 .v_dark_light .title_dark span {
-	color: #26b6d4;
+	color: #1AE8F5;
 	font-family: 'Raleway';
 font-style: normal;
 font-weight: 500;
@@ -1719,6 +1719,7 @@ margin: auto;
 .team_wrap .shap5 {
 	bottom: auto;
 	top: 100px;
+	display:none
 }
 .team_wrap .shap2,
 .team_wrap .shap6 {
@@ -1807,11 +1808,13 @@ margin: auto;
 	content: "Q.";
 	font-weight: 600;
 	margin-right: 5px;
+	display: none;
 }
 .card-body::before {
 	content: "A.";
 	font-weight: 600;
 	margin-right:5px;
+	display: none;
 }
 
 .v_blue .faq_content .card-body::after {
@@ -2891,8 +2894,27 @@ font-size: 36px !important;
 .show.in{
 	display: block !important;
 }
-
-
+.faq_content .card:after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9px;
+    padding: 2px;
+    background: linear-gradient(45deg, #6518F4, #B60AEE);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+#contact label{
+	color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#contact input, textarea{
+	background-color: #291567 !important;
+	color:#fff !important;
+}
 
 
 
