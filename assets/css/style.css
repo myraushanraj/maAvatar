@@ -2931,9 +2931,10 @@ font-size: 48px !important;
 	font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
-line-height: 29px;
-padding-right: 10px;
+font-size: 18px;
+line-height: 25px;
+padding-right: 28px;
+padding-bottom: 127px;
 
 }
 #mobileApp .carousel-control.left, #mobileApp .carousel-control.right {
