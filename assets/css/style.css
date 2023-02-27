@@ -2930,10 +2930,25 @@ font-style: normal;
 font-weight: 400;
 font-size: 25px;
 line-height: 29px;
+padding-right: 10px;
+
+}
+#mobileApp .carousel-control.left, #mobileApp .carousel-control.right {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+#mobileApp .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 0;
+    margin-left: -10px;
 }
 
-
-
+#mobileApp .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 0%;
+    margin-right: -10px;
+}
 
 
 
