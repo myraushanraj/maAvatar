@@ -145,7 +145,6 @@ button:focus {
 	font-size: 56px;
 	line-height: 66px;
 	text-align: center;
-	letter-spacing: 0.055em;
 	
 	color: #FFFFFF;
 	
@@ -157,7 +156,6 @@ button:focus {
 	display: block;
 	font-weight: 500;
 	letter-spacing: 1px;
-	text-transform: uppercase;
 }
 .title_light h2,
 .title_light p {
@@ -219,7 +217,7 @@ button:focus {
 	font-family: 'Raleway';
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 25px;
 line-height: 35px;
 }
 .v_dark_light .title_dark h2 {
@@ -1019,9 +1017,7 @@ header a:hover,.navbar-nav li a.active {
     font-size: 57px;
     line-height: 32px;
     text-align: center;
-    letter-spacing: 0.055em;
     color: #FFFFFF;
-    /* border: 1px solid #FFFFFF; */
     text-shadow: 1px 4.8px 34.23px rgb(255 255 255 / 33%);
 }
 .banner_text h3 {
@@ -1287,6 +1283,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .tk_countdown_time {
 	margin: 15px 0;
+	font-family: 'Roboto', sans-serif;
 }
 .tk_countdown {
 	background-color: #023780;
@@ -1294,9 +1291,7 @@ header a:hover,.navbar-nav li a.active {
 	background-repeat: no-repeat;
 	padding: 10px;
 }
-.countdown_shape {
-	background-image: url("../images/counter_bg.png");
-}
+
 .tk_counter_inner {
 	padding: 25px;
 	padding-top: 0px;
@@ -1422,7 +1417,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_dark .countdown_shape,
 .v_dark_light .countdown_shape {
-	background-image: url("../images/light_counter_bg2.png");
+	/* background-image: url("../images/light_counter_bg2.png"); */
 	width: 400px;
 margin: auto;
 }
@@ -1627,7 +1622,20 @@ margin: auto;
 .team_img img {
 	width: 400px;
     border-radius: 50%;
+	box-shadow: 0px 0px 3px 2px #5e1af5c7;
 
+}
+.team_img:after{
+	content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(45deg, #6518F4, #B60AEE);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
 }
 .social_team {
 	left: 0;
@@ -2916,7 +2924,13 @@ font-size: 36px !important;
 	color:#fff !important;
 }
 
-
+.mobileapp .title_light p{
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+}
 
 
 
