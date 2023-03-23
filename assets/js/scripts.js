@@ -358,7 +358,6 @@ LANDING PAGE JS
 })(jQuery);
 
 function validateMyForm(){
-	alert("We will connect you soon!");
 	const form = document.querySelector('form')
 const data = {};
   const formData = new FormData(form);
@@ -367,5 +366,46 @@ const data = {};
 	data[pair[0]] = pair[1];
   }
 console.log("datya", data)
+
+var payload = {
+	"name":`${data.first_name} ${data.last_name}`,
+	 "email":data.email,
+	  "sponsor":"n/a",
+	   "message":data.message,
+	"website":"maavatar"
+};
+const userEmail = data.email;
+const validateEmail = (userEmail) => {
+  return userEmail.match(
+	/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  )
+};
+
+if(userEmail){
+  const isValidEmail =validateEmail(userEmail);
+  if(!isValidEmail){
+	alert("Invalid Email Address!");
+	return
+  }
+
+  // console.log("isValidEmail", isValidEmail, "userEmail", userEmail);
+  // return
+ fetch('https://api.khubero.com/website/contact', {
+   method: 'POST',
+   body: JSON.stringify(payload),
+   headers: {
+	 'Accept': 'application/json',
+	 'Content-Type': 'application/json'
+   },
+ }).then(function() {
+	alert("Thanks, We will connect you soon!");
+
+ }).then(function(error) {
+ });
+}
+else{
+  alert("please enter email address");
+}
+
 document.getElementById("myForm").reset();
 }
