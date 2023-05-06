@@ -1,0 +1,764 @@
+.navbar {
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, #330c5d, #431964, #1e132f);
+    z-index: 9999;
+    border: 0;
+    font-size: 16px;
+    line-height: 1.42857143;
+    /* letter-spacing: 4px; */
+    border-radius: 0px;
+
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar .navbar-brand {
+    padding: 0px;
+    margin: 14px 0px;
+}
+
+.navbar .navbar-brand img {
+    width: 80%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar li a {
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    margin: 14px 0px;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+
+.opcity-0 {
+    opacity: 0;
+}
+
+.background-color-section1 {
+    background: url(../image/graph.png), linear-gradient(to bottom, #241247 0%, #9b32e4 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 100px;
+
+}
+
+.joinbg {
+    background: url(../image/join-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.virtual-baby-image {
+    text-align: center;
+}
+
+.virtual-baby-image img {
+    max-width: 100%;
+}
+.pb-4{
+    padding-bottom: 16px;
+}
+.virtual-baby h2 {
+    padding: 185px 0px 0px 90px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 100px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+.sliderWrapper{
+    display: flex;
+}
+.sliderWrapper div{
+ margin: 30px;
+}
+.virtual-baby p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.115em;
+    color: #EAE5E5;
+    margin-left: 90px;
+}
+
+.coming-soon img {
+    margin-left: 90px;
+    margin-top: 35px;
+    width: 37%;
+}
+
+.vector-image img {
+    height: 198px;
+    width: 204px;
+    margin-top: 142px;
+}
+
+.vector-image {
+    text-align: center;
+}
+
+.background-color-section2 {
+    background-image: linear-gradient(144deg, #4e2785, #3d256d);
+}
+
+.waiting-list-sec h2 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-left: 90px;
+    margin-top: 250px;
+}
+
+.waiting-list-sec p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.115em;
+    color: #EAE5E5;
+    margin-left: 90px;
+    margin-top: 16px;
+}
+
+.join-now img {
+    margin-left: 92px;
+    margin-top: 115px;
+    width: 37%;
+
+}
+
+.join-now-img1 img {
+    width: 75%;
+    margin: 96px auto;
+    padding-bottom: 50px;
+}
+
+.join-now-img1 {
+    text-align: center;
+}
+
+.background-color-section3 {
+    background-image: linear-gradient(to right, #2d1653,#3f2274, #833497);
+}
+
+.background-color-section4 {
+    background-image: linear-gradient(to right, #381d70, #833497,#3f2274);
+}
+
+.ownership h2 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 90px;
+    margin-top: 175px;
+    line-height: 64px;
+}
+
+.ownership p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.115em;
+    color: #EAE5E5;
+    margin-left: 90px;
+}
+
+.ownership-image img {
+    width: 70%;
+    margin-top: 95px;
+    margin-bottom: 125px;
+
+}
+
+.ownership-image {
+    text-align: center;
+}
+
+.background-color-section5 {
+    background-image: linear-gradient(to right, #4a2480, #3f1875,#87349f);
+}
+
+.miracle-image img {
+    width: 67%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.miracle-image {
+    text-align: center;
+}
+
+.miracle h2 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 60px;
+    margin-top: 0px;
+
+}
+
+.miracle p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.115em;
+    color: #EAE5E5;
+    text-align: center;
+}
+
+.background-color-section6 {
+    background-color: #43186b;
+}
+
+.dis-flex{
+    display: flex;
+    margin-left: -95px;
+}
+
+.w-7 {
+    width: 7%;
+}
+
+.t-mar-45 {
+    margin-top: 45px;
+}
+
+.t-mar-95 {
+    margin-top: 95px;
+}
+
+.vl {
+    border-left: 3px solid white;
+    margin-top: 115px;
+    padding: 58px 0px;
+
+  }
+
+
+.rewards {
+    height: 50px;
+    width: 240px;
+    border: 1px solid #845EC2;
+    border-radius: 10px;
+    background-color: #43186b;
+    margin-left: 95px;
+}
+
+.rewards p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.115em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.carousel-indicators li  {
+    display: inline-block;
+    width: 9px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #912d9b;
+    border: 1px solid #912d9b;
+    border-radius: 10px;
+  }
+  
+  .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #e849c5;
+    background-color: #e849c5 !important;
+  }
+
+.background-color-section7 {
+    background-image: linear-gradient(to right, #50277c, #592e85,#341d6e,#5c2b84)
+}
+
+.faq img {
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 115px;
+}
+
+.padd-t-1{
+    padding-top: 1px;
+}
+
+.form {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.experience-maavatar h2 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 103px;
+    margin-top: 175px;
+}
+
+.experience-maavatar p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.115em;
+    color: #EAE5E5;
+    margin-left: 103px;
+}
+
+.magic-image img {
+    margin-top: 195px;
+    margin-bottom: 80px;
+}
+
+.magic-image {
+    text-align: center;
+}
+
+.metaverse-b-30 {
+    margin-bottom: 30px !important;
+}
+
+.image-padding {
+    padding: 20px 36px 224px 212px;
+
+}
+
+.margin-30 {
+    margin-top: 135px;
+}
+.accordion-wrap{
+    background-image: linear-gradient(to left, #1a0431, #6116ac);
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 30px;
+}
+.accordion {
+    width: 100%;
+    border: none;
+    border: transparent;
+    background: transparent;
+    text-align: left;
+}
+
+
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.faq-wrap{
+    background-image: linear-gradient(to left, #1a0431, #6116ac);
+    
+    
+}
+.panel {
+    padding: 0px 7px;
+    max-height: 0;
+    background-color: transparent;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #706f6f;
+margin: 0px;
+}
+
+.panel p {
+    color: white !important;
+}
+
+.accordion2 {
+    background-image: linear-gradient(to left, #1a0431, #6116ac);
+    color: white;
+    cursor: pointer;
+    padding: 0px 8px 0px 16px;
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.faq .active,
+.accordion2:hover {
+    background-color: transparent;
+}
+
+.accordion2:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.faq .active:after {
+    content: "\2212";
+}
+
+.panel2 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.panel2 p {
+    color: white !important;
+}
+
+h2.faq {
+    padding-top: 50px;
+    margin-left: 90px;
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.background-color-section8 {
+    background-image: linear-gradient(to left, #1c0859, #642382,#170552);
+}
+
+.nft-drop h2 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.nft-form input {
+    padding: 16px;
+    border-radius: 13px;
+    width: 40%;
+    font-size: 17px;
+    margin-top: 50px;
+    border: 1px solid white;
+    margin-bottom: 100px;
+}
+
+.nft-form {
+    text-align: center;
+}
+
+.notify {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #490E64;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background: #490E64;
+    margin-left: -100px;
+}
+
+
+
+.back-color-footer {
+    background-image: linear-gradient(to right, #1a0431, #de81cd);
+}
+
+
+.address-footer h2 {
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+color: #fff;
+text-align: left;
+margin-left: 90px;
+}
+
+.address-footer p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    margin-left: 90px;
+
+}
+
+footer{
+    background: url(../image/footer-Frame.png), linear-gradient(to bottom, #241247 0%, #9b32e4 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    border-top: 2px solid #B428D8;
+    
+}
+.copyright-centre{
+    border-top: 1px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+}
+.copyright-centre p {
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #fff;
+text-align: center;
+padding: 23px;
+}
+
+.social {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1px;
+    /* identical to box height */
+
+    text-align: left;
+
+    color: #FFFFFF;
+}
+footer ul{
+    display:flex;  
+    list-style:none;
+}
+footer ul li{
+    margin-left: 30px;
+}
+
+.footer-logo {
+  margin-left: 91px;
+  margin-top: 40px;
+}
+
+.list li a{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF
+}
+
+.list li{
+    margin-top: 60px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    footer .list{
+        display: none;  
+      }
+      .waiting-list-sec h2, .miracle h2, .experience-maavatar h2, .nft-drop h2, .virtual-baby h2 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 64px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 100px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .ownership h2 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 0px;
+        margin-top: 0px;
+        line-height: 36px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .ownership p, .waiting-list-sec p, .miracle p, .experience-maavatar p,.nft-drop p, .virtual-baby p{
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.115em;
+        color: #EAE5E5;
+        margin-left: 90px;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+  .coming-soon, .join-now {
+    text-align: center;
+  }
+  .coming-soon img, .join-now img {
+    /* margin-left: 90px; */
+    margin-top: 35px;
+    width: 75%;
+    margin: auto;
+}
+.vector-image {
+    text-align: center;
+    display: none;
+}
+.accordion-wrap {
+    background-image: linear-gradient(to left, #1a0431, #6116ac);
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 30px;
+}
+.nft-form input {
+    padding: 16px;
+    border-radius: 13px;
+    width: 80%;
+    font-size: 17px;
+    margin-top: 50px;
+    border: 1px solid white;
+    margin-bottom: 100px;
+}
+.magic-image img {
+    margin-top: 19px;
+    margin-bottom: 80px;
+}
+.vl {
+    border-left: none;
+    margin-top: 0px;
+    padding: 58px 0px;
+}
+.dis-flex {
+    display: flex;
+    margin-left: 0px;
+}
+.w-7 {
+    width: 20%;
+}
+.rewards {
+    height: 50px;
+    width: 240px;
+    border: 1px solid #845EC2;
+    border-radius: 10px;
+    background-color: #43186b;
+    margin-left: 29px;
+    margin-top: 17px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 24px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+}
+
+
