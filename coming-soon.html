@@ -52,11 +52,8 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#myPage">Home</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#join">Join</a></li>
-                    <li><a href="#earn">Earn</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                 
 
                 </ul>
             </div>
@@ -78,13 +75,13 @@
 <h3 class="text-center maavtar">MaAvatar </h3>
 <p class="awesome">Presents </p>
 <p class="virtual-baby"> Your Own Virtual Baby</p>
-                        <div class="col-md-12">
-                            <form class="nft-form">
-                                <input type="email" id="email" placeholder="Type your email ID">
-                                <button class="notify">Notify Me</button>
-                            </form>
+<div class="col-md-12">
+    <form id="myForm" method="post" class="nft-form" onsubmit="event.preventDefault(); validateMyForm();">
+        <input type="email" id="email" placeholder="Type your email ID" name="email">
+        <button class="notify">Notify Me</button>
+    </form>
 
-                        </div>
+</div>
                     </div>
                 </div>
             </div>
@@ -93,7 +90,60 @@
 
     </div>
 
+<script>
+    function validateMyForm() {
+            const form = document.querySelector('form')
+            const data = {};
+            const formData = new FormData(form);
+            console.log("form", formData)
+            for (const pair of formData.entries()) {
+                data[pair[0]] = pair[1];
+            }
+            console.log("datya", data)
 
+            var payload = {
+                "name": `N/A`,
+                "email": data.email,
+                "sponsor": "n/a",
+                "message": "N/A",
+                "website": "maavatar"
+            };
+            const userEmail = data.email;
+            const validateEmail = (userEmail) => {
+                return userEmail.match(
+                    /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+                )
+            };
+
+            if (userEmail) {
+                const isValidEmail = validateEmail(userEmail);
+                if (!isValidEmail) {
+                    alert("Invalid Email Address!");
+                    return
+                }
+
+                // console.log("isValidEmail", isValidEmail, "userEmail", userEmail);
+                // return
+                fetch('https://api.khubero.com/website/contact', {
+                    method: 'POST',
+                    body: JSON.stringify(payload),
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                }).then(function () {
+                    alert("Thanks, We will connect you soon!");
+
+                }).then(function (error) {
+                });
+            }
+            else {
+                alert("please enter email address");
+            }
+
+            document.getElementById("myForm").reset();
+        }
+</script>
 
 
 </body>
