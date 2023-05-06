@@ -165,7 +165,11 @@ text-align: center;
 }
 
 .background-color-section2 {
-    background-image: linear-gradient(144deg, #4e2785, #3d256d);
+    /* background-image: linear-gradient(144deg, #4e2785, #3d256d); */
+    background: url(../image/coming-sson-bg.png), linear-gradient(to bottom, #241247 0%, #9b32e4 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .waiting-list-sec h2 {
