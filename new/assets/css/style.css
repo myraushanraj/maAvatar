@@ -54,13 +54,54 @@
 .opcity-0 {
     opacity: 0;
 }
+.mt-10{
+    margin-top: 40px;
+}
+.maavtar{
+    color: #fff;
+    font-family: 'Exo';
+    font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 74px;
+}
+.virtual-baby{
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
 
+text-align: center;
+
+color: #FFFFFF;
+}
+.awesome{
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+letter-spacing: 0.475em;
+
+color: #EAE5E5;
+text-align: center;
+}
 .background-color-section1 {
-    background: url(../image/graph-new.PNG), linear-gradient(to bottom, #241247 0%, #9b32e4 100%);
+    background: url(../image/home-bg.jpeg), linear-gradient(to bottom, #241247 0%, #9b32e4 100%);
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
 
+}
+.coming-wrap{
+    background: url(../image/coming-sson-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .joinbg {
